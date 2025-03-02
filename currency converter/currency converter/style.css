@@ -1,0 +1,53 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: blanchedalmond;
+}
+img{
+    height: 40px;
+    width: 40px;
+}
+.container{
+    position: relative;
+    background-color: aqua;
+    height: 40vh;       
+    width: 40vw;
+    box-sizing: border-box;
+    border-radius: 5%;
+    margin: auto;
+    margin-top: 30vh;
+}
+.inside-container{
+    position: relative;
+    width: 30vw;
+    height: 30vh;
+    margin: 10px auto;
+    background-color: brown;
+}
+.from{
+   padding: 25px;
+   display: flex;
+   gap: 10px;
+}
+.to{
+    padding: 25px;
+    display: flex;
+gap: 10px;
+}
+
+input{
+    height: 5vh;
+    font-size: larger;
+}
+select{
+    height: 35px;
+    border: none;
+}
+button{
+    background-color: blue;
+    color: azure;
+    height: 40px;
+    border-radius: 20%;
+    margin-left: 18vw;
+    cursor: pointer;
+}

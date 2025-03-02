@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: popins, sans-serif;
+    color: white;
+}
+
+body {
+    background: #222;
+}
+
+.card {
+    position: relative;
+    width: 60vw;
+    margin: auto;
+    background-color: aqua;
+}
+
+.input {
+    margin-top: 100px;
+    position: relative;
+    width: 60%;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    /* background-color: azure; */
+    margin: auto;
+    height: 7vh;
+}
+
+.input input {
+    border-radius: 15px;
+    width: 80%;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    color: black;
+    /* text-align: center; */
+    /* justify-content: center; */
+}
+
+.input button {
+    border-radius: 15px;
+    outline: none;
+    border: none;
+    width: 5%;
+    cursor: pointer;
+}
+
+.wheather-icon {
+    margin-top: 10vh;
+    text-align: center;
+    justify-content: center;
+}
+
+.wheather-icon img {
+    width: 15vw;
+}
+
+.wheather-details {
+    margin-top: 30px;
+    text-align: center;
+    justify-content: center;
+}
+
+.extra {
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-around;
+}
+.humid{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.humid img {
+    width: 5vw;
+}
+.wind{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.wind img {
+    width: 5vw;
+}
+.weather{
+    display: none;
+}
